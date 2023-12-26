@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: 0 auto; /* ทำให้อยู่ตรงกลาง */
+}
+
+.user-list p {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s;
+}
+
+.user-list p:hover {
+    background-color: #e0e0e0;
+}
+
+.post-info {
+    margin-top: 20px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    color: #333;
+}
+
+.post p {
+    color: #666;
+}
