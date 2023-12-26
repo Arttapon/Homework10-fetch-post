@@ -18,18 +18,16 @@ h1, h3 {
 .user-list {
     display: flex;
     flex-direction: column;
-    max-width: 200px;
-    margin: 0 auto; /* ทำให้อยู่ตรงกลาง */
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 18px;
 }
 
 .user-list p {
     cursor: pointer;
     padding: 5px;
     margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f8f8f8;
-    transition: background-color 0.3s;
+
 }
 
 .user-list p:hover {
@@ -56,3 +54,25 @@ h1, h3 {
 .post p {
     color: #666;
 }
+
+.user-list li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    border: 1px solid #7a7a7a;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s;
+}
+
+.user-list li span.name {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.user-list li span.email {
+    color: #555;
+}
+
